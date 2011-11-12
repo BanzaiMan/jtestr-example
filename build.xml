@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project basedir="." default="jar" name="JRuby">
+  <target name="test" description="Runs all tests">
+    <taskdef name="jtestr" 
+             classname="org.jtestr.ant.JtestRAntRunner"
+             classpath="lib/jtestr.jar"/>
+    <jtestr/>
+  </target>
+</project>
